@@ -1,9 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --darkCyan: hsl(185, 75%, 39%);
+    --darkBlue: hsl(229, 23%, 23%);
+    --greyBlue: hsl(227, 10%, 46%);
+    --grey: hsl(0, 0%, 59%);
+    --fontSize: 1.125rem; /* 18px */
+}
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+body {
+    color: var(--darkBlue);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: var(--fontSize);
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: var(--darkCyan);
+    background-image: url(images/bg-pattern-top.svg);
+    /* background-image: url(images/bg-pattern-bottom.svg); */  
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-top {
+    background-image: url(images/bg-pattern-card.svg);
+    border-radius: 15px 15px 0 0;
+    width: 350px;
+    height: 140px;
+}
+
+img {
+    background-color: rgb(245, 255, 255);
+    border: 4px solid rgb(245, 255, 255);
+    border-radius: 50%;
+    display: block;
+    margin: -48px auto; /* half of the img height */
+}
+
+.card-bottom {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+p {
+    font-weight: 700;
+}
+
+span {
+    font-weight: 400;
+    color: var(--greyBlue);
+}
+
+.london-span {
+    font-size: 0.9375rem; /* 15px */
+}
+
+.number {
+    letter-spacing: 1px;
+}
+
+.box > span {
+    color: var(--grey);
+    font-size: 0.6875rem;
+    letter-spacing: 2px;
+}
+
+.number-section {
+    border-top: 1px solid var(--grey);
+    line-height: 1.3;
+    margin-top: 30px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* ---------------------FOOTER----------------------- */
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
