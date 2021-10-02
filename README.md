@@ -39,9 +39,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Mobile-first workflow
 
 ### What I learned
-This project was rather easy for me, which gave me the final confirmation to move on to assignments that are a little bit more difficult (and maybe involve some JS). I learned a bit more about background images and how to position them. Also, I did some research about when to use `<img>` and when to use the CSS property `background-image` instead. Moreover, I learned how to position an image (in this case, the profile picture) so that it overlaps two divs vertically. You can accomplish this by using the `position` property, but in this case it was easiest to use a negative `margin` on the image.
+I learned a bit more about background images and how to position them. Also, I did some research about when to use `<img>` and when to use the CSS property 
+`background-image` instead. Moreover, I learned how to position an image (in this case, the profile picture) so that it overlaps two divs vertically. You can accomplish this by using the `position` property, but in this case it was easiest to use a negative `margin` on the image.
 
 ### Continued development
+This project was rather easy for me, which encourages me to move on to assignments that are a little bit more difficult.   
 Until now I was hesitant to work on projects that required the use of JavaScript (even though I have done some) because that's the skill I am least experienced with. That's exactly why I *should* dive into those kinds of projects in the future. I want to focus on getting more comfortable with JavaScript.
 
 ## Author
