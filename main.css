@@ -54,6 +54,10 @@ img {
     padding-top: 60px;
 }
 
+h1 {
+    font-size: var(--fontSize);
+}
+
 p {
     font-weight: 700;
 }
