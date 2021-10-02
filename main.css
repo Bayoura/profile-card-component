@@ -63,7 +63,7 @@ span {
     color: var(--greyBlue);
 }
 
-.london-span {
+.location {
     font-size: 0.875rem; /* 14px */
 }
 
@@ -83,16 +83,18 @@ span {
 }
 
 
-
 /* ---------------------FOOTER----------------------- */
 
 footer { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 0.6875rem; /* 11px */
 }
     
 footer a { 
     color: hsl(228, 45%, 44%); 
+}
+
+footer a:active {
+    border: dotted;
 }
 
 
